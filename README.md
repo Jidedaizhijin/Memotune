@@ -26,20 +26,6 @@
  
 kotlin | jetpack compose | media3 播放内核 | mvvm 架构 | 本地数据存储
  
- 
- 
-
-<img width="922" height="1920" alt="421AE3E28B6027C54848F5FC0297ED9C" src="https://github.com/user-attachments/assets/625af6c8-aa9c-4fc4-a40e-7f2e515abd9f" />
-<img width="1920" height="812" alt="6" src="https://github.com/user-attachments/assets/17106471-a163-487b-8035-65177f4cbd0d" />
-<img width="922" height="1920" alt="5" src="https://github.com/user-attachments/assets/fb8b0b84-de2c-411b-950d-55888d0f974b" />
-<img width="922" height="1920" alt="4" src="https://github.com/user-attachments/assets/7ff02bcf-7471-4676-ba4c-36af1b3c641c" />
-<img width="922" height="1920" alt="3" src="https://github.com/user-attachments/assets/392265bc-594c-403a-bb8a-e12b930794e5" />
-<img width="922" height="1920" alt="2" src="https://github.com/user-attachments/assets/43bcde4b-bd1a-491f-a4ef-0e45a4f826b3" />
-
-
-
-
- 
 english
  
 memotune
@@ -71,3 +57,8 @@ roadmap 📌
 tech stack 🛠️
  
 kotlin | jetpack compose | media3 | mvvm | local storage
+
+<img width="2757" height="1920" alt="WPS拼图0" src="https://github.com/user-attachments/assets/968991e7-e719-48f7-8ea8-ad70b6bfd39e" />
+<img width="1920" height="812" alt="6" src="https://github.com/user-attachments/assets/0fa8bf8f-f7b3-4b27-a267-89d81d20e8b5" />
+
+
