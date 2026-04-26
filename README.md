@@ -1,17 +1,35 @@
-# Memotune / 记得听歌
+# Memotune / 记得听歌App
+
+Memotune 是一款简洁、轻量的 Android 本地音乐播放器，主打干净克制的听歌体验，在保留基础播放能力的同时，加入歌词、桌面歌词、AI 悬浮球等实用功能。
+
+### 已实现功能
+
+- 本地音乐自动扫描，并自动过滤铃声、录音等非歌曲音频
+- 支持多种常见音频格式播放，包括 MP3、MP4、FLAC 等
+- 支持内嵌歌词与外挂歌词识别
+- 支持歌词精准滚动显示
+- 支持桌面悬浮歌词
+- 支持 Android 系统媒体通知栏控制
+- 支持车载蓝牙播放控制
+- 支持 AI 悬浮球快捷控制，可贴边隐藏
+- 支持自定义 AI API 来源
+- 支持最近播放记录
+- 支持歌单分类管理
+
+### 兼容性
+
+- 项目以 Android 16（API 36） 为编译与目标SDK版本，最低支持 Android 8.0（API 26）。
+
+### 说明
+
+后续将继续优化播放体验、歌词体验、在线音源能力与 AI 相关功能。
 
 Memotune is a lightweight local music player for Android, built with Kotlin and Jetpack Compose.
 
 It focuses on a clean, simple, and comfortable local music listening experience.  
 Instead of becoming a heavy music platform, Memotune aims to make local playback, lyrics, floating controls, and daily music listening feel smooth and distraction-free.
 
-> 记得听歌是一款专注本地音乐体验的轻量 Android 音乐播放器。  
-> 它希望把本地听歌这件事做得更干净、更舒服：打开、播放、看歌词、控制音乐，不被复杂功能打扰。
-
----
-
 ## Preview
-
 
 
 ---
