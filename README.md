@@ -1,64 +1,224 @@
-记得听歌 音乐播放器| memotune
+# Memotune / 记得听歌
 
-一款简洁、轻体积的本地音乐播放器，自带 ai 悬浮球操控，后续迭代 ai 音效与音源加强。
-纯原生 kotlin 开发，体积极致轻巧。
-设计主打简洁克制，砍掉所有冗余花哨功能，
-让听歌回归最简单纯粹的样子，简约不无聊，干净又舒服。
- 
-已实现功能 ✅
- 
-- 支持多格式音频播放：mp3、mp4、flac 等无损及主流音频格式
-- 精准歌词自动滚动
-- ai 悬浮球快捷播放控制
-- 桌面悬浮歌词
-- 横屏播放模式
-- 本地歌单分类管理
-- 全局极简克制 ui，轻量低占用
- 
-后续开发规划 📌
- 
-- 完善多音源接入、在线音频解析
-- 在线曲库、歌曲信息、歌词自动匹配补全
-- 新增 ai 音效优化、音源音质加强模块
-- 接入 github release 版本检测，应用内自动更新
- 
-技术栈 🛠️
- 
-kotlin | jetpack compose | media3 播放内核 | mvvm 架构 | 本地数据存储
- 
-english
- 
-memotune
- 
-a simple, lightweight local music player with ai floating ball control.
-ai sound effects and audio source enhancement will be added in future versions.
- 
-fully native kotlin development, tiny app package size.
-the design keeps simple and restrained, removing all useless distractions,
-let music enjoyment return to the original pure state, simple but not boring.
- 
-completed features ✅
- 
-- support multiple audio formats: mp3, mp4, flac and other lossless formats
-- auto scrolling lyrics
-- ai floating ball control
-- desktop floating lyrics
-- landscape play mode
-- local playlist management
-- minimalist ui design, lightweight and low consumption
- 
-roadmap 📌
- 
-- multi audio source access and online audio parsing
-- auto match online music metadata and lyrics
-- add ai sound effect optimization and sound enhancement
-- github release version check & in-app auto-update
- 
-tech stack 🛠️
- 
-kotlin | jetpack compose | media3 | mvvm | local storage
+Memotune is a lightweight local music player for Android, built with Kotlin and Jetpack Compose.
 
-<img width="2757" height="1920" alt="WPS拼图0" src="https://github.com/user-attachments/assets/968991e7-e719-48f7-8ea8-ad70b6bfd39e" />
-<img width="1920" height="812" alt="6" src="https://github.com/user-attachments/assets/0fa8bf8f-f7b3-4b27-a267-89d81d20e8b5" />
+It focuses on a clean, simple, and comfortable local music listening experience.  
+Instead of becoming a heavy music platform, Memotune aims to make local playback, lyrics, floating controls, and daily music listening feel smooth and distraction-free.
+
+> 记得听歌是一款专注本地音乐体验的轻量 Android 音乐播放器。  
+> 它希望把本地听歌这件事做得更干净、更舒服：打开、播放、看歌词、控制音乐，不被复杂功能打扰。
+
+---
+
+## Preview
 
 
+
+---
+
+## Features
+
+### Local Music Playback
+
+- Local audio file playback
+- Support for common audio formats such as MP3, FLAC, MP4 and more
+- Background playback
+- Media notification controls
+- Playback queue support
+- Mini player and full-screen player interaction
+- Landscape playback mode
+
+### Lyrics
+
+- Embedded lyrics reading
+- External lyrics support
+- Lyric parsing and display
+- Auto-scrolling lyrics
+- Desktop floating lyrics
+- Lyrics optimized for daily listening
+
+### Floating Control
+
+- Floating playback control
+- Quick play / pause operation
+- Lightweight control interaction without opening the full player
+- Designed for quick music control during daily use
+
+### User Interface
+
+- Built with Jetpack Compose
+- Clean Material-style interface
+- Lightweight and restrained visual design
+- Minimal local music library experience
+- Simple song list, player page, and settings page
+
+---
+
+## Tech Stack
+
+- Kotlin
+- Jetpack Compose
+- Material 3
+- Media3 / ExoPlayer
+- MediaSession
+- Android Foreground Service
+- Local data storage
+- MVVM-style architecture
+
+---
+
+## Project Structure
+
+```text
+app/
+ └── src/main/java/com/jidedaizhijin/myapplication/
+     ├── data/
+     │   ├── lyrics/
+     │   └── online/
+     ├── ui/
+     │   ├── home/
+     │   ├── player/
+     │   └── settings/
+     ├── MainActivity.kt
+     ├── PlaybackService.kt
+     └── ...
+
+
+---
+
+Roadmap
+
+Local Playback Experience
+
+Improve playback state restoration
+
+Optimize playback queue management
+
+Polish full-screen player animations
+
+Improve folder and local library management
+
+Improve compatibility with different local audio files
+
+
+Lyrics
+
+Improve embedded lyrics compatibility
+
+Improve external lyrics matching
+
+Optimize lyric scrolling performance
+
+Add better lyric fallback handling
+
+
+Online Audio Experiments
+
+Add experimental online music source support
+
+Add online search and preview
+
+Improve song metadata completion
+
+Improve lyric matching from online sources
+
+
+AI-related Experiments
+
+Explore AI-assisted lyric and metadata completion
+
+Explore AI-assisted audio enhancement
+
+Improve floating control interactions
+
+
+Distribution
+
+Add GitHub Release version checking
+
+Add in-app update notification
+
+Prepare release builds
+
+Improve app icon and branding assets
+
+
+
+---
+
+Current Status
+
+Memotune is currently under active development.
+
+The current focus is:
+
+stabilizing local music playback
+
+improving lyric support
+
+polishing the player UI
+
+keeping the app lightweight and comfortable to use
+
+
+Online music source support and AI-related features are experimental and will be developed gradually.
+
+
+---
+
+Build
+
+Clone the repository and open it with Android Studio.
+
+Recommended environment:
+
+Android Studio
+
+Kotlin
+
+Jetpack Compose
+
+Android Gradle Plugin
+
+Gradle
+
+
+Build debug version:
+
+./gradlew assembleDebug
+
+On Windows:
+
+gradlew.bat assembleDebug
+
+
+---
+
+Why Memotune?
+
+Many music apps today are becoming increasingly complex.
+For users who mainly listen to local music files, the experience can sometimes feel too heavy.
+
+Memotune tries to keep things simple:
+
+open the app
+
+play local songs
+
+view lyrics
+
+control playback easily
+
+enjoy music without unnecessary distractions
+
+
+The goal is not to replace every music app, but to provide a clean, lightweight, and comfortable local music player for Android.
+
+
+---
+
+Notes
+
+This project is mainly a personal Android development project and is still evolving.
+
+Some features, especially online audio source support and AI-related experiments, are not yet finalized and may change in future versions.
