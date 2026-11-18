@@ -52,6 +52,25 @@ Memotune 是一款简洁、轻量的 Android 本地音乐播放器，主打干�
 
 后续将继续优化播放体验、歌词体验、在线音源能力与 AI 相关功能。
 
+
+## Preview
+
+<p align="center">
+  <a href="screenshots/home.jpg">
+    <img src="screenshots/home.jpg" width="23%" alt="Home">
+  </a>
+  <a href="screenshots/player.jpg">
+    <img src="screenshots/player.jpg" width="23%" alt="Player">
+  </a>
+  <a href="screenshots/lyrics.jpg">
+    <img src="screenshots/lyrics.jpg" width="23%" alt="Lyrics">
+  </a>
+  <a href="screenshots/settings.jpg">
+    <img src="screenshots/settings.jpg" width="23%" alt="Settings">
+  </a>
+</p>
+
+
 Memotune is a lightweight local music player for Android, built with Kotlin and Jetpack Compose.
 
 It focuses on a clean, simple, and comfortable local music listening experience.
